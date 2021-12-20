@@ -1,0 +1,33 @@
+.footer{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px auto;
+}
+
+.footer h2{
+    margin-bottom: 15px;
+}
+
+.icons{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 12px;
+}
+
+.icons div{
+    font-size:20px;
+    color: rgb(218, 141, 0);
+    cursor: pointer;
+}
+
+@media screen and (max-width:700px) {
+    .icons{
+        width: 50%;
+    }
+}
